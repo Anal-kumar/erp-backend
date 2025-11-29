@@ -1,0 +1,17 @@
+{
+  "est_id": "EST01",
+  "serial_key": "ERPRM-EST01-B0BIABC0-46BA29A5",
+  "api_url": "http://192.168.1.49",
+  "api_port": 8000,
+  "firm_name": "LUCKY COMPUTING",
+  "firm_owner_name": " BHAWESH TANK",
+  "firm_short_name": "LC",
+  "firm_address": "PACHRI PARA, KURUD",
+  "firm_mobile_number": "9111991112",
+  "firm_email": "luckycomputing@gmail.com",
+  "firm_gst_number": "22ABCDE1234F1Z5",
+  "firm_pan_number": "ABCDE1234F",
+  "page_size": 10,
+  "product_name": "ERPRM",
+  "expires_on": "2029-12-30"
+}
