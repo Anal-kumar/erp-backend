@@ -10,8 +10,8 @@ from app.core.security import (
     get_current_user,
     security
 )
-from app.schemas.user import User as UserSchema
-from app.models.user import User as UserModel
+from app.modules.users.schemas import User as UserSchema
+from app.modules.users.models import User as UserModel
 from jose import jwt, JWTError
 
 router = APIRouter()

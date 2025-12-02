@@ -4,8 +4,8 @@ from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from typing import List
 from app.db.session import get_db
 from app.core.security import get_current_user, hash_password, verify_password
-from app.models.user import User as UserModel
-from app.schemas.user import UserCreate, UserUpdate, UserResponse, UpdatePassword, User as UserSchema
+from app.modules.users.models import User as UserModel
+from app.modules.users.schemas import UserCreate, UserUpdate, UserResponse, UpdatePassword, User as UserSchema
 
 router = APIRouter()
 
